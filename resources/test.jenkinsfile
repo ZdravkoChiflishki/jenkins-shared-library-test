@@ -1,0 +1,7 @@
+@Library('jenkins-lib') _
+
+jenkinslib(this, "test")
+    .withMavenVersion("maven3.6.3")
+    .withJdkVersion("jdk11")
+    .execute()
+
